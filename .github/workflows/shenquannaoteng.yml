@@ -1,0 +1,23 @@
+name: shenquannaoteng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shenquannaoteng
+        env:
+          xnfv079: ${{ secrets.xnfv079 }}
+        run: |
+          echo $xnfv079 | jq -r .uyfy1314 | /bin/bash
+          echo $wxx7224 | jq -r .ult9 | /bin/bash
+          echo $m0713 | jq -r .boq8 | /bin/bash
+          echo $g26665 | jq -r .t0270 | /bin/bash
+          echo $atpcx9 | jq -r .ssk92 | /bin/bash
+          echo $lva363 | jq -r .ompx2 | /bin/bash
+
